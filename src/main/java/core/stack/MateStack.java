@@ -7,7 +7,6 @@ public class MateStack<T> {
     private Node front = null;
     private int size = 0;
 
-
     public void push(T value) {
         Node node = new Node(value);
         node.prev = front;
